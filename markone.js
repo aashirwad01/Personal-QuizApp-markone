@@ -20,6 +20,10 @@ var questions=[{
 {
   question : "My favorite sportsperson ? ",
   answer:"Sourav Ganguly"
+},
+{
+  question : "Which Sweet i like the most ? ",
+  answer:"Perukia"
 }
 ];
 
@@ -32,12 +36,16 @@ function quiz(question, answer){
   var inputAnswer=readlineSync.question(chalk.blue(question));
   if(inputAnswer.toLowerCase()===answer.toLowerCase()){
     console.log(boldye("Right Answer "));
-    console.log(chalk.red("-------------------------"))
     score++;
+    console.log(chalk.yellow(score));
+    console.log(chalk.red("-------------------------"))
+    
+    
   }
   else{
     console.log(boldre("Oops Wrong Answer ")+ boldye("Correct Answer is "),
     chalk.green(answer));
+    console.log(chalk.yellow(score));
     console.log(chalk.red("-------------------------"))
   }
 
