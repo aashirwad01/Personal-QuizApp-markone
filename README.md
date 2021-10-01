@@ -5,8 +5,8 @@ JavaScript language  Chalk and readlinesync packages basic Quiz app.
 
 ### A KBC Command Line Quiz App
 
-## Hosted on Netlify [KBC Quiz](https://replit.com/@AashirwadKumar/markone?embed=1&output=1#index.js)
-![KBC Quiz](https://github.com/aashirwad01/aashirwad-site/blob/main/images/markone.png)
+## Hosted on Netlify [Personal-QuizApp](https://replit.com/@AashirwadKumar/markone?embed=1&output=1#index.js)
+![Personal-QuizApp](https://github.com/aashirwad01/aashirwad-site/blob/main/images/markone.png)
 ### Intended Use A app App to Know if You are Crorepati.
 
 
